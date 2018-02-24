@@ -1,0 +1,22 @@
+_id : "56f40101d2720b2a4d8b45d8",
+_name : "waves",
+_parent : "56f40101d2720b2a4d8b45d6",
+_props :
+{
+  0 :
+  {
+    time_min : 30,
+    time_max : 250,
+    slots_min : 3,
+    slots_max : 3,
+    SpawnPoints : ""
+  },
+  1 :
+  {
+    time_min : 600,
+    time_max : 610,
+    slots_min : 3,
+    slots_max : 3,
+    SpawnPoints : ""
+  }
+}

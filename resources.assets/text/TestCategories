@@ -1,0 +1,501 @@
+{
+  "err": 0,
+  "data": {
+    "54009119af1c881c07000029": {
+      "Name":"Item",
+      "parent": "",
+      "fields": {
+        "Name":"Наименование",
+        "ShortName": "Короткое наименование",
+        "Description": "Описание",
+        "Weight": "Вес (кг)",
+        "BackgroundColor": "Цвет подложки",
+        "Width": "Ячеек по горизонтали",
+        "Height": "Ячеек по вертикали",
+        "StackMaxSize": "Стак",
+        "StackObjectsCount" : "Количество обьектов в стеке",
+        "CreditsPrice": "Цена (руб)",
+        "Icon": "Картинка",
+        "ItemSound": "Звук",
+        "Prefab": "Префаб"
+      }
+    },
+    "543be5cb4bdc2deb348b4568": {
+      "Name":"Ammo",
+      "parent": "54009119af1c881c07000029",
+      "fields": {
+        "ammoCaliber": "Калибр",
+        "ammoPackCount": "Патронов в пачке",
+        "ammoCasing": "Патрон",
+        "Name":"Наименование",
+        "ShortName": "Короткое наименование",
+        "Description": "Описание",
+        "Weight": "Вес (кг)",
+        "BackgroundColor": "Цвет подложки",
+        "Width": "Ячеек по горизонтали",
+        "Height": "Ячеек по вертикали",
+        "StackMaxSize": "Стак",
+        "StackObjectsCount" : "Количество обьектов в стеке",
+        "CreditsPrice": "Цена (руб)",
+        "Icon": "Картинка",
+        "ItemSound": "Звук",
+        "Prefab": "Префаб"
+      }
+    },
+    "543be5f84bdc2dd4348b456a": {
+      "Name":"Equipment",
+      "parent": "54009119af1c881c07000029",
+      "fields": {
+        "Name":"Наименование",
+        "ShortName": "Короткое наименование",
+        "Description": "Описание",
+        "Weight": "Вес (кг)",
+        "BackgroundColor": "Цвет подложки",
+        "Width": "Ячеек по горизонтали",
+        "Height": "Ячеек по вертикали",
+        "StackMaxSize": "Стак",
+        "StackObjectsCount" : "Количество обьектов в стеке",
+        "CreditsPrice": "Цена (руб)",
+        "Icon": "Картинка",
+        "ItemSound": "Звук",
+        "Prefab": "Префаб"
+      }
+    },
+    "5448e54d4bdc2dcc718b4568": {
+      "Name":"armor",
+      "parent": "543be5f84bdc2dd4348b456a",
+      "fields": {
+        "armorZone": "Зоны покрытия",
+        "armorPoints": "Единиц брони",
+        "armorClass": "Класс",
+        "speedPenaltyPercent": "Штраф скорости движения %",
+        "mousePenalty": "Штраф поворотливости %",
+        "Name":"Наименование",
+        "ShortName": "Короткое наименование",
+        "Description": "Описание",
+        "Weight": "Вес (кг)",
+        "BackgroundColor": "Цвет подложки",
+        "Width": "Ячеек по горизонтали",
+        "Height": "Ячеек по вертикали",
+        "StackMaxSize": "Стак",
+        "StackObjectsCount" : "Количество обьектов в стеке",
+        "CreditsPrice": "Цена (руб)",
+        "Icon": "Картинка",
+        "ItemSound": "Звук",
+        "Prefab": "Префаб"
+      }
+    },
+    "5448e53e4bdc2d60728b4567": {
+      "Name":"backpack",
+      "parent": "543be5f84bdc2dd4348b456a",
+      "fields": {
+        "Name":"Наименование",
+        "ShortName": "Короткое наименование",
+        "Description": "Описание",
+        "Weight": "Вес (кг)",
+        "BackgroundColor": "Цвет подложки",
+        "Width": "Ячеек по горизонтали",
+        "Height": "Ячеек по вертикали",
+        "StackMaxSize": "Стак",
+        "StackObjectsCount" : "Количество обьектов в стеке",
+        "CreditsPrice": "Цена (руб)",
+        "Icon": "Картинка",
+        "ItemSound": "Звук",
+        "Prefab": "Префаб"
+      }
+    },
+    "5448e5284bdc2dcb718b4567": {
+      "Name":"vest",
+      "parent": "543be5f84bdc2dd4348b456a",
+      "fields": []
+    },
+    "5448e5724bdc2ddf718b4568": {
+      "Name":"visors",
+      "parent": "543be5f84bdc2dd4348b456a",
+      "fields": []
+    },
+    "543be6674bdc2df1348b4569": {
+      "Name":"FoodDrink",
+      "parent": "54009119af1c881c07000029",
+      "fields": {
+        "foodUseTime": "Время использования (сек)",
+        "foodEffectType": "Тип воздействия",
+        "effects_health": "",
+        "effects_damage": "",
+        "effects_speed": "",
+        "Name":"Наименование",
+        "ShortName": "Короткое наименование",
+        "Description": "Описание",
+        "Weight": "Вес (кг)",
+        "BackgroundColor": "Цвет подложки",
+        "Width": "Ячеек по горизонтали",
+        "Height": "Ячеек по вертикали",
+        "StackMaxSize": "Стак",
+        "StackObjectsCount" : "Количество обьектов в стеке",
+        "CreditsPrice": "Цена (руб)",
+        "Icon": "Картинка",
+        "ItemSound": "Звук",
+        "Prefab": "Префаб"
+      }
+    },
+    "5448e8d64bdc2dce718b4568": {
+      "Name":"drink",
+      "parent": "543be6674bdc2df1348b4569",
+      "fields": []
+    },
+    "5448e8d04bdc2ddf718b4569": {
+      "Name":"food",
+      "parent": "543be6674bdc2df1348b4569",
+      "fields": []
+    },
+    "543be5e94bdc2df1348b4568": {
+      "Name":"Keys",
+      "parent": "54009119af1c881c07000029",
+      "fields": []
+    },
+    "543be5664bdc2dd4348b4569": {
+      "Name":"Meds",
+      "parent": "54009119af1c881c07000029",
+      "fields": {
+        "medUseTime": "Время использования (сек)",
+        "medEffectType": "Тип воздействия",
+        "hpResource": "Запас HP для лечения",
+        "hpResourceRate": "Скорость расхода ресурса (HP/сек)",
+        "effects_health": "",
+        "effects_damage": "",
+        "effects_speed": "",
+        "Name":"Наименование",
+        "ShortName": "Короткое наименование",
+        "Description": "Описание",
+        "Weight": "Вес (кг)",
+        "BackgroundColor": "Цвет подложки",
+        "Width": "Ячеек по горизонтали",
+        "Height": "Ячеек по вертикали",
+        "StackMaxSize": "Стак",
+        "StackObjectsCount" : "Количество обьектов в стеке",
+        "CreditsPrice": "Цена (руб)",
+        "Icon": "Картинка",
+        "ItemSound": "Звук",
+        "Prefab": "Префаб"
+      }
+    },
+    "5448f3a14bdc2d27728b4569": {
+      "Name":"drugs",
+      "parent": "543be5664bdc2dd4348b4569",
+      "fields": []
+    },
+    "5448f39d4bdc2d0a728b4568": {
+      "Name":"medKits",
+      "parent": "543be5664bdc2dd4348b4569",
+      "fields": []
+    },
+    "5448f3ac4bdc2dce718b4569": {
+      "Name":"medical",
+      "parent": "543be5664bdc2dd4348b4569",
+      "fields": []
+    },
+    "5448f3a64bdc2d60728b456a": {
+      "Name":"stimulators",
+      "parent": "543be5664bdc2dd4348b4569",
+      "fields": []
+    },
+    "5448fe124bdc2da5018b4567": {
+      "Name":"Mods",
+      "parent": "54009119af1c881c07000029",
+      "fields": {
+        "modAccr": "Точность",
+        "modRecoil": "Отдача",
+        "modDam": "Урон",
+        "modPenetr": "Пробиваемость",
+        "modMob": "Мобильность (вес)",
+        "modEffDist": "Эфф. дальность",
+        "modHear": "Дист. звука выстрела",
+        "modAimFOV": "Aim FOV",
+        "modOpticFOV": "FOV оптики",
+        "Name":"Наименование",
+        "ShortName": "Короткое наименование",
+        "Description": "Описание",
+        "Weight": "Вес (кг)",
+        "BackgroundColor": "Цвет подложки",
+        "Width": "Ячеек по горизонтали",
+        "Height": "Ячеек по вертикали",
+        "StackMaxSize": "Стак",
+        "StackObjectsCount" : "Количество обьектов в стеке",
+        "CreditsPrice": "Цена (руб)",
+        "Icon": "Картинка",
+        "ItemSound": "Звук",
+        "Prefab": "Префаб"
+      }
+    },
+    "550aa4154bdc2dd8348b456b": {
+      "Name":"functional",
+      "parent": "5448fe124bdc2da5018b4567",
+      "fields": []
+    },
+    "5448fe394bdc2d0d028b456c": {
+      "Name":"muzzleMod",
+      "parent": "550aa4154bdc2dd8348b456b",
+      "fields": {
+        "modDurab": "Тех. состояние",
+        "muzzleModType": "Тип устройства",
+        "Name":"Наименование",
+        "ShortName": "Короткое наименование",
+        "Description": "Описание",
+        "Weight": "Вес (кг)",
+        "BackgroundColor": "Цвет подложки",
+        "Width": "Ячеек по горизонтали",
+        "Height": "Ячеек по вертикали",
+        "StackMaxSize": "Стак",
+        "StackObjectsCount" : "Количество обьектов в стеке",
+        "CreditsPrice": "Цена (руб)",
+        "Icon": "Картинка",
+        "ItemSound": "Звук",
+        "Prefab": "Префаб",
+        "modAccr": "Точность",
+        "modRecoil": "Отдача",
+        "modDam": "Урон",
+        "modPenetr": "Пробиваемость",
+        "modMob": "Мобильность (вес)",
+        "modEffDist": "Эфф. дальность",
+        "modHear": "Дист. звука выстрела",
+        "modAimFOV": "Aim FOV",
+        "modOpticFOV": "FOV оптики"
+      }
+    },
+    "550aa4af4bdc2dd4348b456e": {
+      "Name":"compensator",
+      "parent": "5448fe394bdc2d0d028b456c",
+      "fields": []
+    },
+    "550aa4bf4bdc2dd6348b456b": {
+      "Name":"flashHider",
+      "parent": "5448fe394bdc2d0d028b456c",
+      "fields": []
+    },
+    "550aa4dd4bdc2dc9348b4569": {
+      "Name":"muzzleCombo",
+      "parent": "5448fe394bdc2d0d028b456c",
+      "fields": []
+    },
+    "550ad14d4bdc2dd5348b456c": {
+      "Name":"pms",
+      "parent": "5448fe394bdc2d0d028b456c",
+      "fields": []
+    },
+    "550aa4cd4bdc2dd8348b456c": {
+      "Name":"silencer",
+      "parent": "5448fe394bdc2d0d028b456c",
+      "fields": []
+    },
+    "5448fe7a4bdc2d6f028b456b": {
+      "Name":"sightMod",
+      "parent": "550aa4154bdc2dd8348b456b",
+      "fields": []
+    },
+    "5448fe254bdc2d0d028b4569": {
+      "Name":"tacticalMod",
+      "parent": "550aa4154bdc2dd8348b456b",
+      "fields": []
+    },
+    "5448feb34bdc2d0d028b456f": {
+      "Name":"underBarrelMod",
+      "parent": "5448fe124bdc2da5018b4567",
+      "fields": []
+    },
+    "543be5dd4bdc2deb348b4569": {
+      "Name":"Money",
+      "parent": "54009119af1c881c07000029",
+      "fields": {
+        "type": "",
+        "Name":"Наименование",
+        "ShortName": "Короткое наименование",
+        "Description": "Описание",
+        "Weight": "Вес (кг)",
+        "BackgroundColor": "Цвет подложки",
+        "Width": "Ячеек по горизонтали",
+        "Height": "Ячеек по вертикали",
+        "StackMaxSize": "Стак",
+        "StackObjectsCount" : "Количество обьектов в стеке",
+        "CreditsPrice": "Цена (руб)",
+        "Icon": "Картинка",
+        "ItemSound": "Звук",
+        "Prefab": "Префаб"
+      }
+    },
+    "5422acb9af1c889c16000029": {
+      "Name":"Weapon",
+      "parent": "54009119af1c881c07000029",
+      "fields": {
+        "weapClass": "Класс",
+        "weapUseType": "Тип",
+        "weapFireType": "Тип стрельбы",
+        "burstCount": "Высрелов в очереди",
+        "burstFirerate": "Скорострельность в очереди",
+        "ammoCaliber": "",
+        "weapAmmoTypes": "Боеприпасы",
+        "durab": "Прочность",
+        "repPrice": "Цена починки",
+        "bFullRelTime": "Перезарядка полн. (сек)",
+        "bPartRelTime": "Перезарядка частичн. (сек)",
+        "isFastReload": "Сброс магазина",
+        "bAcc": "Точность",
+        "bRecUp": "Отдача ствола вверх",
+        "bRecBack": "Отдача назад",
+        "accConv": "Схождение прицела",
+        "bRecAngle": "Угол отдачи",
+        "bRecDisp": "Разброс угла",
+        "bOutIdle": "Коэфф. ускор. аним. доставания",
+        "bIdleOut": "Коэфф. ускор. аним. убирания",
+        "bAimSpeed": "Коэфф. ускор. прицеливания",
+        "bAimSens": "Коэфф. чувств. мыши при прицеливании",
+        "bMisfireTime": "Время аним. передёргивания при осечке",
+        "bSemiDelay": "Задержка одиночного (мс)",
+        "bAutoDelay": "Задержка автоматического (мс)",
+        "weapAimFOV": "Базовый ФОВ оружия без прицелов",
+        "weapWorldFOV": "Базовый ФОВ мира без прицелов",
+        "bFirerate": "Скорострельность",
+        "weapMob": "Штраф мобильности",
+        "bDam": "Урон",
+        "bPenetr": "Пробиваемость",
+        "bEffDist": "Эфф. дальность",
+        "bHearDist": "Радиус слышимости",
+        "isChamberLoad": "Можно патрон в патроннике",
+        "chamberAmmoCount": "Патронов в патроннике",
+        "isBoltCatch": "Затворная задержка",
+        "magType": "Подходящие магазины",
+        "defMagType": "Стандартный магазин",
+        "shotgunDispersion": "Угол разлета дроби",
+        "Name":"Наименование",
+        "ShortName": "Короткое наименование",
+        "Description": "Описание",
+        "Weight": "Вес (кг)",
+        "BackgroundColor": "Цвет подложки",
+        "Width": "Ячеек по горизонтали",
+        "Height": "Ячеек по вертикали",
+        "StackMaxSize": "Стак",
+        "StackObjectsCount" : "Количество обьектов в стеке",
+        "CreditsPrice": "Цена (руб)",
+        "Icon": "Картинка",
+        "ItemSound": "Звук",
+        "Prefab": "Префаб"
+      }
+    },
+    "5447b5fc4bdc2d87278b4567": {
+      "Name":"assaultCarbine",
+      "parent": "5422acb9af1c889c16000029",
+      "fields": []
+    },
+    "5447b5f14bdc2d61278b4567": {
+      "Name":"assaultRifle",
+      "parent": "5422acb9af1c889c16000029",
+      "fields": []
+    },
+    "5447bedf4bdc2d87278b4568": {
+      "Name":"grenadeLauncher",
+      "parent": "5422acb9af1c889c16000029",
+      "fields": []
+    },
+    "5447bed64bdc2d97278b4568": {
+      "Name":"machinegun",
+      "parent": "5422acb9af1c889c16000029",
+      "fields": []
+    },
+    "5447b6194bdc2d67278b4567": {
+      "Name":"marksmanRifle",
+      "parent": "5422acb9af1c889c16000029",
+      "fields": []
+    },
+    "5447b5cf4bdc2d65278b4567": {
+      "Name":"pistol",
+      "parent": "5422acb9af1c889c16000029",
+      "fields": []
+    },
+    "5447b6094bdc2dc3278b4567": {
+      "Name":"shotgun",
+      "parent": "5422acb9af1c889c16000029",
+      "fields": []
+    },
+    "5447b5e04bdc2d62278b4567": {
+      "Name":"smg",
+      "parent": "5422acb9af1c889c16000029",
+      "fields": []
+    },
+    "5447b6254bdc2dc3278b4568": {
+      "Name":"sniperRifle",
+      "parent": "5422acb9af1c889c16000029",
+      "fields": []
+    },
+    "5447bee84bdc2dc3278b4569": {
+      "Name":"specialWeapon",
+      "parent": "5422acb9af1c889c16000029",
+      "fields": []
+    },
+    "5448eb774bdc2d0a728b4567": {
+      "Name":"barterItems",
+      "parent": "54009119af1c881c07000029",
+      "fields": []
+    },
+    "5448ecbe4bdc2d60728b4568": {
+      "Name":"info",
+      "parent": "54009119af1c881c07000029",
+      "fields": []
+    },
+    "5447e1d04bdc2dff2f8b4567": {
+      "Name":"knifes",
+      "parent": "54009119af1c881c07000029",
+      "fields": []
+    },
+    "5448bc234bdc2d3c308b4569": {
+      "Name":"magMod",
+      "parent": "54009119af1c881c07000029",
+      "fields": {
+        "magModCapacity": "Патронов",
+        "magModAmmoType": "Допустимые патроны",
+        "Name":"Наименование",
+        "ShortName": "Короткое наименование",
+        "Description": "Описание",
+        "Weight": "Вес (кг)",
+        "BackgroundColor": "Цвет подложки",
+        "Width": "Ячеек по горизонтали",
+        "Height": "Ячеек по вертикали",
+        "StackMaxSize": "Стак",
+        "StackObjectsCount" : "Количество обьектов в стеке",
+        "CreditsPrice": "Цена (руб)",
+        "Icon": "Картинка",
+        "ItemSound": "Звук",
+        "Prefab": "Префаб"
+      }
+    },
+    "5448bf274bdc2dfc2f8b456a": {
+      "Name":"mobContainers",
+      "parent": "54009119af1c881c07000029",
+      "fields": []
+    },
+    "5447e0e74bdc2d3c308b4567": {
+      "Name":"specItems",
+      "parent": "54009119af1c881c07000029",
+      "fields": {
+        "apResource": "Ресурс брони",
+        "krResource": "Ресурс заточки ножей",
+        "Name":"Наименование",
+        "ShortName": "Короткое наименование",
+        "Description": "Описание",
+        "Weight": "Вес (кг)",
+        "BackgroundColor": "Цвет подложки",
+        "Width": "Ячеек по горизонтали",
+        "Height": "Ячеек по вертикали",
+        "StackMaxSize": "Стак",
+        "StackObjectsCount" : "Количество обьектов в стеке",
+        "CreditsPrice": "Цена (руб)",
+        "Icon": "Картинка",
+        "ItemSound": "Звук",
+        "Prefab": "Префаб"
+      }
+    },
+    "543be6564bdc2df4348b4568": {
+      "Name":"throwWeap",
+      "parent": "54009119af1c881c07000029",
+      "fields": []
+    }
+  }
+}

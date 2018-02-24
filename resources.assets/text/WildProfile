@@ -1,0 +1,520 @@
+{
+    "err": 0,
+    "errmsg": "",
+    "data": {
+        "TraderStandings": {},
+        "_id": "Musor",
+        "aid": "",
+        "int_id": 0,
+        "Info": {
+            "Experience": 100,
+            "Level": 1,
+            "Nickname": "hunter96",
+            "Side": "Savage",
+            "RegistrationDate": 0,
+            "Settings": null
+        },
+        "Customization": {
+            "Head": {
+                "path": "assets/content/characters/character/prefabs/wild_head.bundle",
+                "rcid": null
+            },
+            "Body": {
+                "path": "assets/content/characters/character/prefabs/wild_body_1.bundle",
+                "rcid": null
+            },
+            "Feet": {
+                "path": "assets/content/characters/character/prefabs/wild_feet.bundle",
+                "rcid": null
+            },
+            "Hands": {
+                "path": "assets/content/hands/wild/wild_body_1_firsthands.bundle",
+                "rcid": null
+            }
+        },
+        "Encyclopedia": null,
+        "Health": {
+            "HealthSeed": 0,
+            "IsAlive": true,
+            "HydrationLimitedValue": {
+                "MaxTopThreshold": 100,
+                "MinTopThreshold": 0,
+                "CurrAndMaxValue": {
+                    "CurrentValue": 100,
+                    "MaxValue": 100
+                }
+            },
+            "EnergyLimitedValue": {
+                "MaxTopThreshold": 100,
+                "MinTopThreshold": 0,
+                "CurrAndMaxValue": {
+                    "CurrentValue": 100,
+                    "MaxValue": 100
+                }
+            },
+            "BodyPartsHealth": {
+                "Head": {
+                    "MaxTopThreshold": 100,
+                    "MinTopThreshold": 0,
+                    "CurrAndMaxValue": {
+                        "CurrentValue": 100,
+                        "MaxValue": 100
+                    }
+                },
+                "Chest": {
+                    "MaxTopThreshold": 100,
+                    "MinTopThreshold": 0,
+                    "CurrAndMaxValue": {
+                        "CurrentValue": 100,
+                        "MaxValue": 100
+                    }
+                },
+                "Stomach": {
+                    "MaxTopThreshold": 100,
+                    "MinTopThreshold": 0,
+                    "CurrAndMaxValue": {
+                        "CurrentValue": 100,
+                        "MaxValue": 100
+                    }
+                },
+                "LeftArm": {
+                    "MaxTopThreshold": 100,
+                    "MinTopThreshold": 0,
+                    "CurrAndMaxValue": {
+                        "CurrentValue": 100,
+                        "MaxValue": 100
+                    }
+                },
+                "RightArm": {
+                    "MaxTopThreshold": 100,
+                    "MinTopThreshold": 0,
+                    "CurrAndMaxValue": {
+                        "CurrentValue": 100,
+                        "MaxValue": 100
+                    }
+                },
+                "LeftLeg": {
+                    "MaxTopThreshold": 100,
+                    "MinTopThreshold": 0,
+                    "CurrAndMaxValue": {
+                        "CurrentValue": 100,
+                        "MaxValue": 100
+                    }
+                },
+                "RightLeg": {
+                    "MaxTopThreshold": 100,
+                    "MinTopThreshold": 0,
+                    "CurrAndMaxValue": {
+                        "CurrentValue": 100,
+                        "MaxValue": 100
+                    }
+                }
+            },
+            "DestroyedParts": [],
+            "EffectInfoList": [],
+            "StimulatorInfoList": [],
+            "HealthRegenInfo": {
+                "startTime": 0,
+                "addedValue": 0,
+                "timeInterval": 0
+            },
+            "HydrationRegenInfo": {
+                "startTime": 0,
+                "addedValue": 0,
+                "timeInterval": 0
+            },
+            "EnergyRegenInfo": {
+                "startTime": 0,
+                "addedValue": 0,
+                "timeInterval": 0
+            },
+            "DamageCoefficient": 0.03
+        },
+        "Inventory": {
+            "items": [
+                {
+                    "_id": "equipment",
+                    "_tpl": "55d7217a4bdc2d86028b456d"
+                },
+                {
+                    "_id": "hideout",
+                    "_tpl": "566abbc34bdc2d92178b4576"
+                },
+                {
+                    "_id": "82d0f74a-36fb-4125-a760-dd3f2fb739a7",
+                    "_tpl": "54491bb74bdc2d09088b4567",
+                    "parentId": "equipment",
+                    "slotId": "Scabbard",
+                    "upd": {
+                        "Durability": 100,
+                        "MaxDurability": 100
+                    }
+                },
+                {
+                    "_id": "8b0057cd-bac3-4245-afad-334fa44c296d",
+                    "_tpl": "56e33634d2720bd8058b456b",
+                    "parentId": "equipment",
+                    "slotId": "Backpack"
+                },
+                {
+                    "_id": "test_pockets",
+                    "_tpl": "557ffd194bdc2d28148b457f",
+                    "parentId": "equipment",
+                    "slotId": "Pockets"
+                }
+            ],
+            "equipment": "equipment",
+            "stash": "hideout",
+            "fastPanel": {}
+        },
+        "Skills": {
+            "Common": [
+                {
+                    "Id": "Endurance",
+                    "Progress": 0,
+                    "MaxAchieved": 133,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Strength",
+                    "Progress": 0,
+                    "MaxAchieved": 450,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Vitality",
+                    "Progress": 0,
+                    "MaxAchieved": 300,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Health",
+                    "Progress": 0,
+                    "MaxAchieved": 300,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "StressResistance",
+                    "Progress": 0,
+                    "MaxAchieved": 300,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Metabolism",
+                    "Progress": 0,
+                    "MaxAchieved": 300,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Immunity",
+                    "Progress": 0,
+                    "MaxAchieved": 88,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Perception",
+                    "Progress": 0,
+                    "MaxAchieved": 300,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Intellect",
+                    "Progress": 0,
+                    "MaxAchieved": 11,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Attention",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Charisma",
+                    "Progress": 0,
+                    "MaxAchieved": 3,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Memory",
+                    "Progress": 0,
+                    "MaxAchieved": 125,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Pistol",
+                    "Progress": 0,
+                    "MaxAchieved": 206,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Revolver",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "SMG",
+                    "Progress": 0,
+                    "MaxAchieved": 12,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Assault",
+                    "Progress": 0,
+                    "MaxAchieved": 54,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Shotgun",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Sniper",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "LMG",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "HMG",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Launcher",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "AttachedLauncher",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Throwing",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Melee",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "DMR",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "DrawMaster",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "AimMaster",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "RecoilControl",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "TroubleShooting",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Sniping",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "CovertMovement",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "ProneMovement",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "FirstAid",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "FieldMedicine",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "LightVests",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "HeavyVests",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "WeaponModding",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "AdvancedModding",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "NightOps",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "SilentOps",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Lockpicking",
+                    "Progress": 0,
+                    "MaxAchieved": 6,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Search",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "WeaponTreatment",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Freetrading",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Auctions",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Cleanoperations",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Barter",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Shadowconnections",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "Taskperformance",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "BearAssaultoperations",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "BearAuthority",
+                    "Progress": 0,
+                    "MaxAchieved": 145,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "BearAksystems",
+                    "Progress": 0,
+                    "MaxAchieved": 0,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "BearHeavycaliber",
+                    "Progress": 0,
+                    "MaxAchieved": 13,
+                    "LastAccess": -2147483648
+                },
+                {
+                    "Id": "BearRawpower",
+                    "Progress": 0,
+                    "MaxAchieved": 22,
+                    "LastAccess": -2147483648
+                }
+            ],
+            "Mastering": [],
+            "Points": 0
+        },
+        "Notes": {
+            "Notes": []
+        },
+        "Quests": [],
+        "ConditionCounters": {
+            "Counters": []
+        },
+        "BackendCounters": {},
+        "Stats": {
+            "SessionCounters": {
+                "Items": []
+            },
+            "OverallCounters": {
+                "Items": []
+            },
+            "SessionExperienceMult": 0,
+            "TotalSessionExperience": 0,
+            "LastSessionDate": 0
+        }
+    }
+}

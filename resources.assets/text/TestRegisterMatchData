@@ -1,0 +1,246 @@
+{
+  "err": 0,
+  "data": {
+    "match_id": "test_match",
+    "needed_count_player": 3,
+    "playersInfo": [
+      {
+        "accountId": "petya@mail.ru",
+        "profileId": "0"
+      },
+      {
+        "accountId": "vasia@mail.ru",
+        "profileId": "0"
+      },
+      {
+        "accountId": "vova@mail.ru",
+        "profileId": "0"
+      }
+    ],
+    "match_mode": "deathmatch",
+    "scene": {
+      "path": "maps/develop.bundle",
+      "rcid": "develop"
+    },
+    "points": {
+      "gamersSpawnPoints": {
+        "3": {
+          "enabled": true,
+          "static": true,
+          "rarity": "Common",
+          "filter": [],
+          "pos_x": 3.59642363,
+          "pos_y": 0.5913043,
+          "pos_z": 9.84505,
+          "rot_x": 0,
+          "rot_y": 0,
+          "rot_z": 0
+        },
+        "4": {
+          "enabled": true,
+          "static": true,
+          "rarity": "Common",
+          "filter": [],
+          "pos_x": -2.792759,
+          "pos_y": 0.5869942,
+          "pos_z": -0.508157,
+          "rot_x": 0,
+          "rot_y": 0,
+          "rot_z": 0
+        },
+        "1": {
+          "enabled": true,
+          "static": true,
+          "rarity": "Common",
+          "filter": [],
+          "pos_x": 0,
+          "pos_y": 0,
+          "pos_z": 0,
+          "rot_x": 0,
+          "rot_y": 0,
+          "rot_z": 0
+        },
+        "2": {
+          "enabled": true,
+          "static": true,
+          "rarity": "Common",
+          "filter": [],
+          "pos_x": -6.711293,
+          "pos_y": 0.5255699,
+          "pos_z": 5.613861,
+          "rot_x": 0,
+          "rot_y": 0,
+          "rot_z": 0
+        },
+        "0": {
+          "enabled": true,
+          "static": true,
+          "rarity": "Common",
+          "filter": [],
+          "pos_x": 3.78204918,
+          "pos_y": 11.607316,
+          "pos_z": -31.7922649,
+          "rot_x": 22.7018986,
+          "rot_y": 0,
+          "rot_z": 0
+        },
+        "": {
+          "enabled": true,
+          "static": true,
+          "rarity": "Common",
+          "filter": [],
+          "pos_x": -8.041133,
+          "pos_y": 30.581625,
+          "pos_z": -29.6427441,
+          "rot_x": 0,
+          "rot_y": 0,
+          "rot_z": 0
+        },
+        "54435E5A": {
+          "enabled": true,
+          "static": true,
+          "rarity": "Common",
+          "filter": [],
+          "pos_x": -17.0200958,
+          "pos_y": 7.47680473,
+          "pos_z": 17.2314682,
+          "rot_x": 0,
+          "rot_y": 0,
+          "rot_z": 0
+        },
+        "1895E305": {
+          "enabled": true,
+          "static": true,
+          "rarity": "Common",
+          "filter": [],
+          "pos_x": -16.9828129,
+          "pos_y": 7.60393047,
+          "pos_z": 19.958004,
+          "rot_x": 0,
+          "rot_y": 0,
+          "rot_z": 0
+        },
+        "BA58B39": {
+          "enabled": true,
+          "static": true,
+          "rarity": "Common",
+          "filter": [],
+          "pos_x": -19.7850113,
+          "pos_y": 7.416507,
+          "pos_z": 19.0267067,
+          "rot_x": 0,
+          "rot_y": 0,
+          "rot_z": 0
+        },
+        "187C2A85": {
+          "enabled": true,
+          "static": true,
+          "rarity": "Common",
+          "filter": [],
+          "pos_x": -22.0637379,
+          "pos_y": 8.402474,
+          "pos_z": 15.4635849,
+          "rot_x": 0,
+          "rot_y": 0,
+          "rot_z": 0
+        },
+        "5683165E": {
+          "enabled": true,
+          "static": true,
+          "rarity": "Common",
+          "filter": [],
+          "pos_x": -20.685194,
+          "pos_y": 7.89962149,
+          "pos_z": 15.2161827,
+          "rot_x": 0,
+          "rot_y": 0,
+          "rot_z": 0
+        },
+        "1A7E9D38": {
+          "enabled": true,
+          "static": true,
+          "rarity": "Common",
+          "filter": [],
+          "pos_x": -12.8526468,
+          "pos_y": 6.92208672,
+          "pos_z": -16.7945366,
+          "rot_x": 0,
+          "rot_y": 0,
+          "rot_z": 0
+        },
+        "70C51FE1": {
+          "enabled": true,
+          "static": true,
+          "rarity": "Common",
+          "filter": [],
+          "pos_x": 37.4411049,
+          "pos_y": 5.696858,
+          "pos_z": 3.7657268,
+          "rot_x": 0,
+          "rot_y": 0,
+          "rot_z": 0
+        },
+        "2C3C3E13": {
+          "enabled": true,
+          "static": true,
+          "rarity": "Common",
+          "filter": [],
+          "pos_x": 24.7325974,
+          "pos_y": 6.380584,
+          "pos_z": -38.8972359,
+          "rot_x": 0,
+          "rot_y": 0,
+          "rot_z": 0
+        },
+        "27D555A9": {
+          "enabled": true,
+          "static": true,
+          "rarity": "Common",
+          "filter": [],
+          "pos_x": -38.32163,
+          "pos_y": 15.20104,
+          "pos_z": -10.1153965,
+          "rot_x": 0,
+          "rot_y": 0,
+          "rot_z": 0
+        },
+        "492CF341": {
+          "enabled": true,
+          "static": true,
+          "rarity": "Common",
+          "filter": [],
+          "pos_x": -5.712286,
+          "pos_y": 12.8002272,
+          "pos_z": 14.72142,
+          "rot_x": 0,
+          "rot_y": 0,
+          "rot_z": 0
+        },
+        "11CECF9A": {
+          "enabled": true,
+          "static": true,
+          "rarity": "Common",
+          "filter": [],
+          "pos_x": 5.87104034,
+          "pos_y": 13.5731888,
+          "pos_z": 39.8313675,
+          "rot_x": 0,
+          "rot_y": 0,
+          "rot_z": 0
+        },
+        "33FEC4F3": {
+          "enabled": true,
+          "static": true,
+          "rarity": "Common",
+          "filter": [],
+          "pos_x": -8.063271,
+          "pos_y": 0.436195016,
+          "pos_z": 22.39521,
+          "rot_x": 0,
+          "rot_y": 80.22664,
+          "rot_z": 0
+        }
+      }
+    }
+  }
+}

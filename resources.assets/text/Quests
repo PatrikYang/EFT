@@ -1,0 +1,101 @@
+{
+    "Quests": [
+        {
+            "id": "questID1",
+            "traderId": null,
+            "name": "locId2",
+            "description": "locId1",
+            "image": "iasdf.png",
+            "type": "Common",
+            "isKey": true,
+            "rewards": {
+                "Started": [
+                    {
+                        "type": "Item",
+                        "target": "itemId",
+                        "value": 1
+                    }
+                ],
+                "Success": [
+                    {
+                        "type": "Item",
+                        "target": "itemId",
+                        "value": 3
+                    },
+                    {
+                        "type": "Skill",
+                        "target": "skillId",
+                        "value": 100.5
+                    }
+                ],
+                "Fail": [
+                    {
+                        "type": "MerchantStanding",
+                        "target": "merchantId",
+                        "value": -500
+                    }
+                ]
+            },
+            "conditions": {
+                "AvailableForStart": [
+                    {
+                        "_parent": "Level",
+                        "_props": {
+                            "id": null,
+                            "value": 10
+                        }
+                    },
+                    {
+                        "_parent": "TraderStanding",
+                        "_props": {
+                            "target": "traderId1",
+                            "id": null,
+                            "value": 8.25
+                        }
+                    }
+                ],
+                "AvailableForFinish": [
+                    {
+                        "_parent": "CounterCreator",
+                        "_props": {
+                            "counter": {
+                                "id": "counterId01",
+                                "conditions": [
+                                    {
+                                        "_parent": "Kills",
+                                        "_props": {
+                                            "target": "Bear",
+                                            "id": null,
+                                            "value": 0,
+                                            "compareMethod": "=="
+                                        }
+                                    },
+                                    {
+                                        "_parent": "Time",
+                                        "_props": {
+                                            "id": null,
+                                            "value": 1800,
+                                            "compareMethod": "<="
+                                        }
+                                    }
+                                ]
+                            },
+                            "description": "asd sad sadf sadf s",
+                            "id": null,
+                            "value": 3
+                        }
+                    }
+                ],
+                "Fail": [
+                    {
+                        "_parent": "QuestTime",
+                        "_props": {
+                            "id": null,
+                            "value": 30
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

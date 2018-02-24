@@ -1,0 +1,724 @@
+{
+    "keyBindings": [
+
+        {
+            "keyName": "ToggleGoggles",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "N",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+
+		{
+            "keyName": "Nidnod",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "Mouse2",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+
+        {
+            "keyName": "Mumble",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "Y",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+
+        {
+            "keyName": "WatchTime",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "O",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+
+        {
+            "keyName": "Tactical",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "T",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+
+        {
+            "keyName": "Shoot",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "Mouse0",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "Aim",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "Mouse1",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "WeaponPunch",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "Mouse2",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "Next",
+            "variants": [
+                {
+                    "isAxis": true,
+                    "keyCode": "None",
+                    "axisName": "Mouse Scroll",
+                    "positiveAxis": true,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "Previous",
+            "variants": [
+                {
+                    "isAxis": true,
+                    "keyCode": "None",
+                    "axisName": "Mouse Scroll",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "Interact",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "F",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "ThrowGrenade",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "G",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "ReloadWeapon",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "R",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "ShootingMode",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "B",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "Prone",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "X",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "SprintAndBreath",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "LeftShift",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "Duck",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "C",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "Walk",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "CapsLock",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "LeanLockLeft",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "Q",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "LeanLockRight",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "E",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },    
+        {
+            "keyName": "ExamineWeapon",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "L",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "Inventory",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "Tab",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "Knife",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "V",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "Jump",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "Space",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "PrimaryWeaponFirst",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "Alpha2",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "PrimaryWeaponSecond",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "Alpha3",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "SecondaryWeapon",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "Alpha1",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "Slot4",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "Alpha4",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "Slot5",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "Alpha5",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "Slot6",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "Alpha6",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "Slot7",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "Alpha7",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "Slot8",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "Alpha8",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "Slot9",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "Alpha9",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "Slot0",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "Alpha0",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "SpecialActionModifier",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "LeftControl",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+
+        {
+            "keyName": "LeftAlt",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "LeftAlt",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+
+        {
+            "keyName": "ChangePointOfView",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "Home",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "CheckAmmo",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "P",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "CheckChamber",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "LeftBracket",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "ToggleLauncher",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "H",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+        {
+            "keyName": "Escape",
+            "variants": [
+                {
+                    "isAxis": false,
+                    "keyCode": "Escape",
+                    "axisName": "",
+                    "positiveAxis": false,
+                    "deadZone": 0,
+                    "sensitivity": 1
+                }
+            ]
+        },
+	    {
+		    "keyName": "OpticCalibrationSwitchUp",
+		    "variants": [
+			    {
+				    "isAxis": false,
+				    "keyCode": "PageUp",
+				    "axisName": "",
+				    "positiveAxis": false,
+				    "deadZone": 0,
+				    "sensitivity": 1
+			    }
+		    ]
+	    },
+	    {
+		    "keyName": "OpticCalibrationSwitchDown",
+		    "variants": [
+			    {
+				    "isAxis": false,
+				    "keyCode": "PageDown",
+				    "axisName": "",
+				    "positiveAxis": false,
+				    "deadZone": 0,
+				    "sensitivity": 1
+			    }
+		    ]
+	    }
+    ],
+  "axisBindings": [
+    {
+      "axisName": "LeanX",
+      "pairs": [
+        {
+          "positive": {
+            "isAxis": false,
+            "keyCode": "E",
+            "axisName": "",
+            "positiveAxis": false,
+            "deadZone": 0,
+            "sensitivity": 100
+          },
+          "negative": {
+            "isAxis": false,
+            "keyCode": "Q",
+            "axisName": "",
+            "positiveAxis": false,
+            "deadZone": 0,
+            "sensitivity": 20
+          }
+        }
+      ],
+      "isInverted": false,
+      "gravity": 0,
+      "snapToZero": false
+    },
+
+    {
+      "axisName": "MoveX",
+      "pairs": [
+        {
+          "positive": {
+            "isAxis": false,
+            "keyCode": "D",
+            "axisName": "",
+            "positiveAxis": false,
+            "deadZone": 0,
+            "sensitivity": 1
+          },
+          "negative": {
+            "isAxis": false,
+            "keyCode": "A",
+            "axisName": "",
+            "positiveAxis": false,
+            "deadZone": 0,
+            "sensitivity": 1
+          }
+        }
+      ],
+      "isInverted": false,
+      "gravity": 0,
+      "snapToZero": false
+    },
+    {
+      "axisName": "MoveY",
+      "pairs": [
+        {
+          "positive": {
+            "isAxis": false,
+            "keyCode": "W",
+            "axisName": "",
+            "positiveAxis": false,
+            "deadZone": 0,
+            "sensitivity": 1
+          },
+          "negative": {
+            "isAxis": false,
+            "keyCode": "S",
+            "axisName": "",
+            "positiveAxis": false,
+            "deadZone": 0,
+            "sensitivity": 1
+          }
+        }
+      ],
+      "isInverted": false,
+      "gravity": 0,
+      "snapToZero": false
+    },
+    {
+      "axisName": "LookX",
+      "pairs": [
+        {
+          "positive": {
+            "isAxis": true,
+            "keyCode": "None",
+            "axisName": "Mouse X",
+            "positiveAxis": true,
+            "deadZone": 0,
+            "sensitivity": 5
+          },
+          "negative": {
+            "isAxis": true,
+            "keyCode": "None",
+            "axisName": "Mouse X",
+            "positiveAxis": false,
+            "deadZone": 0,
+            "sensitivity": 5
+          }
+        }
+      ],
+      "isInverted": false,
+      "gravity": 0,
+      "snapToZero": false
+    },
+    {
+      "axisName": "LookY",
+      "pairs": [
+        {
+          "positive": {
+            "isAxis": true,
+            "keyCode": "None",
+            "axisName": "Mouse Y",
+            "positiveAxis": false,
+            "deadZone": 0,
+            "sensitivity": 5
+          },
+          "negative": {
+            "isAxis": true,
+            "keyCode": "None",
+            "axisName": "Mouse Y",
+            "positiveAxis": true,
+            "deadZone": 0,
+            "sensitivity": 5
+          }
+        }
+      ],
+      "isInverted": false,
+      "gravity": 0,
+      "snapToZero": false
+    }
+  ],
+
+  "Fov": 0,
+  "OverallVolume": 10,
+  "EffectsVolume": 10,
+  "InterfaceVolume": 10,
+  "MusicVolume": 5,
+  "VoiceVolume": 10,
+  "MicrophoneSensitivity": 10,
+  "Headbobbing": 8,
+
+  "MouseSensitivity": 0.7,
+  "MouseAimingSensitivity": 0.5,
+
+  "InvertedXAxis": false,
+  "InvertedYAxis": false,
+  "HoldToWalk": false,
+  "HoldToSprint": false,
+  "HoldToLean": false,
+  "HoldToAim": false,
+  "HoldToCrouch": false
+}

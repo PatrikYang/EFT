@@ -1,0 +1,14 @@
+{
+    "err": 0,
+    "data": {
+        "code": 0,
+        "sum": {
+            "sell": 600,
+            "buy": 0,
+            "sell_with_comm": 600,
+            "buy_with_comm": 0
+        },
+        "calc": 1,
+        "type": "sell"
+    }
+}

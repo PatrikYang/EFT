@@ -1,0 +1,25 @@
+{
+    "err": 0,
+    "data": {
+        "5447a9cd4bdc2dbd208b4567": {
+            "id": "5447a9cd4bdc2dbd208b4567",
+            "pid": "5447b5f14bdc2d61278b4567",
+            "shortName": "M4A1",
+            "name": "Штурмовая винтовка M4A1",
+            "desc": "бла бла бла, штурмовая винтовка\nололо, очень интересный и важный текст",
+            "weight": 3.5,
+            "price": 100,
+            "iconUrl": "/uploads/CONTENT/items/item_weap_m4.png"
+        },
+        "5447ac644bdc2d6c208b4567": {
+            "id": "5447ac644bdc2d6c208b4567",
+            "pid": "543be5cb4bdc2deb348b4568",
+            "shortName": "5.56x45",
+            "name": "Патроны 5.56x45",
+            "desc": "Партоны НАТОвского образца 5.56х45 мм",
+            "weight": 0.5,
+            "price": 500,
+            "iconUrl": "/uploads/CONTENT/items/item_ammo_762x39_20.png"
+        }
+    }
+}

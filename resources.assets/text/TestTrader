@@ -1,0 +1,22 @@
+{
+    "err": 0,
+    "data": {
+        "uid": 46,
+        "name": "Федор",
+        "age": "35",
+        "avatar": "/modules/Trading/images/default_trader_avatar.jpg",
+        "gender": "1",
+        "settings": {
+            "assort": {
+                "543be5cb4bdc2deb348b4568": "100",
+                "543be5f84bdc2dd4348b456a": "0",
+                "5447e0e74bdc2d3c308b4567": "0",
+                "543be6564bdc2df4348b4568": "0"
+            }
+        },
+        "balance": 666,
+        "_id": {
+            "$id": "54cb50c76803fa8b248b4571"
+        }
+    }
+}

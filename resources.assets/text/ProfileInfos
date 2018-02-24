@@ -1,0 +1,20 @@
+{
+  "err": 0,
+  "errmsg": "",
+  "data": [
+    {
+      "profileid": "0",
+      "status": "Free",
+      "server_id": "",
+      "ip": "",
+      "port": 0
+    },
+    {
+      "profileid": "1",
+      "status": "Free",
+      "server_id": "",
+      "ip": "",
+      "port": 0
+    }
+  ]
+}

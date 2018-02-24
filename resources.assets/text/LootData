@@ -1,0 +1,58 @@
+[
+    {
+        "Position": {
+            "x": -8.08,
+            "y": 3.18,
+            "z": 12.75
+        },
+        "Rotation": {
+            "x": 15.6772089,
+            "y": 302.830017,
+            "z": 4.43380884E-7
+        },
+        "Items": [
+            {
+                "_id": "caac3338-e44b-471a-803d-055a3b1fbb66",
+                "_tpl": "567143bf4bdc2d1a0f8b4567"
+            },
+            {
+                "_id": "eeca3120-b80b-4cb6-ae30-d34bcb78e52a",
+                "_tpl": "54527ac44bdc2d36668b4567",
+                "parentId": "caac3338-e44b-471a-803d-055a3b1fbb66",
+                "slotId": "main",
+                "location": {
+                    "x": 0,
+                    "y": 1,
+                    "r": "Horizontal"
+                },
+                "upd": {
+                    "StackObjectsCount": 10
+                }
+            },
+            {
+                "_id": "e9be9578-dfab-4fcd-a431-9719c13cbcc3",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "caac3338-e44b-471a-803d-055a3b1fbb66",
+                "slotId": "main",
+                "location": {
+                    "x": 1,
+                    "y": 2,
+                    "r": "Horizontal"
+                },
+                "upd": {
+                    "StackObjectsCount": 30
+                }
+            },
+            {
+                "_id": "ba0f97a1-9173-44d8-b7f3-53bc7a16f703",
+                "_tpl": "54527a984bdc2d4e668b4567",
+                "parentId": "e9be9578-dfab-4fcd-a431-9719c13cbcc3",
+                "slotId": "cartridges",
+                "upd": {
+                    "StackObjectsCount": 30
+                }
+            }
+        ],
+        "Root": "caac3338-e44b-471a-803d-055a3b1fbb66"
+    }
+]

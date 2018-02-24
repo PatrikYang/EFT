@@ -1,0 +1,23 @@
+{
+    "err": 0,
+    "data": {
+        "54cbaab76803fabb488b4568": {
+            "_id": {
+                "$id": "54cbaab76803fabb488b4568"
+            },
+            "item_id": {
+                "$id": "5447a9cd4bdc2dbd208b4567"
+            },
+            "count": 66
+        },
+        "54cbaab76803fabb488b458e": {
+            "_id": {
+                "$id": "54cbaab76803fabb488b458e"
+            },
+            "item_id": {
+                "$id": "545cdb794bdc2d3a198b456a"
+            },
+            "count": 66
+        }
+    }
+}

@@ -1,0 +1,279 @@
+{
+  "err": 0,
+  "data": {
+    "RightArmFracture": {
+      "Type": "RightArmFracture",
+      "Icon": "fracture_icon",
+      "IsActiveOffline": true,
+      "Active": false,
+      "Endless": true,
+      "SubstrateColor": "red",
+      "EffectPassingTime": 4,
+      "UseSpeedFactor": 0.5,
+      "LootSpeedFactor": 0.5,
+      "PrecisionFactor": 0.33,
+      "WeaponGetSpeedFactor": 0.33,
+      "ReloadSpeedFactor": 0.33
+    },
+    "LeftArmFracture": {
+      "Type": "LeftArmFracture",
+      "Icon": "fracture_icon",
+      "IsActiveOffline": true,
+      "Active": false,
+      "Endless": true,
+      "SubstrateColor": "red",
+      "EffectPassingTime": 4,
+      "UseSpeedFactor": 0.67,
+      "LootSpeedFactor": 0.67,
+      "WeaponGetSpeedFactor": 0.5,
+      "ReloadSpeedFactor": 0.5
+    },
+    "LegFracture": {
+      "Type": "LegFracture",
+      "Icon": "fracture_icon",
+      "IsActiveOffline": true,
+      "Active": false,
+      "Endless": true,
+      "SubstrateColor": "red",
+      "EffectPassingTime": 4,
+      "WalkSpeedPrecentageDelta": -45
+    },
+    "RightArmDestroyed": {
+      "Type": "RightArmDestroyed",
+      "Icon": "destroyed_icon",
+      "IsActiveOffline": true,
+      "Active": false,
+      "Endless": true,
+      "SubstrateColor": "red",
+      "ChanceOfDeath": 20,
+      "EffectPassingTime": 4,
+      "UseSpeedFactor": 0.5,
+      "LootSpeedFactor": 0.5,
+      "PrecisionFactor": 0.33,
+      "WeaponGetSpeedFactor": 0.33,
+      "ReloadSpeedFactor": 0.33
+    },
+    "LeftArmDestroyed": {
+      "Type": "LeftArmDestroyed",
+      "Icon": "destroyed_icon",
+      "IsActiveOffline": true,
+      "Active": false,
+      "Endless": true,
+      "SubstrateColor": "red",
+      "ChanceOfDeath": 20,
+      "EffectPassingTime": 4,
+      "UseSpeedFactor": 0.67,
+      "LootSpeedFactor": 0.67,
+      "WeaponGetSpeedFactor": 0.5,
+      "ReloadSpeedFactor": 0.5
+    },
+    "LegDestroyed": {
+      "Type": "LegDestroyed",
+      "Icon": "destroyed_icon",
+      "IsActiveOffline": true,
+      "Active": false,
+      "Endless": true,
+      "SubstrateColor": "red",
+      "ChanceOfDeath": 30,
+      "EffectPassingTime": 4,
+      "WalkSpeedPrecentageDelta": -45
+    },
+    "StomachDestroyed": {
+      "Type": "StomachDestroyed",
+      "Icon": "destroyed_icon",
+      "IsActiveOffline": true,
+      "Active": false,
+      "Endless": true,
+      "SubstrateColor": "red",
+      "ChanceOfDeath": 60,
+      "EffectPassingTime": 4
+    },
+    "VitalBodyPartDestroyed": {
+      "Type": "VitalBodyPartDestroyed",
+      "Icon": "destroyed_icon",
+      "IsActiveOffline": true,
+      "Active": false,
+      "Endless": true,
+      "SubstrateColor": "red",
+      "ChanceOfDeath": 100,
+      "EffectPassingTime": 4
+    },
+    "Bleeding": {
+      "Type": "Bleeding",
+      "Icon": "bleeding_icon",
+      "SubstrateColor": "red",
+      "VisualEffects": [
+        "redMist"
+      ],
+      "Active": true,
+      "Endless": true,
+      "EffectPassingTime": 4,
+      "TimeStep": 5,
+      "HealthDelta": -1,
+      "EnergyDelta": -2,
+      "OverlayEffects": {
+        "Dehydration": {
+          "EffectsToCreate": [
+            "BleedingOnDehydration"
+          ],
+          "Replace": true
+        }
+      }
+    },
+    "BleedingOnDehydration": {
+      "Type": "BleedingOnDehydration",
+      "Icon": "bleeding_on_dehydration",
+      "VisualEffects": [
+        "redMist"
+      ],
+      "SubstrateColor": "red",
+      "Active": true,
+      "Endless": false,
+      "EffectPassingTime": 4,
+      "Duration": 30,
+      "TimeStep": 1,
+      "HealthDelta": -1,
+      "EnergyDelta": -2
+    },
+    "Pain": {
+      "Type": "Pain",
+      "Icon": "pain_icon",
+      "SubstrateColor": "red",
+      "Active": false,
+      "Endless": false,
+      "EffectPassingTime": 4,
+      "VisualEffects": [
+        "darkening",
+        "soaping"
+      ]
+    },
+    "Contusion": {
+      "Type": "Contusion",
+      "Icon": "contusion_icon",
+      "SubstrateColor": "red",
+      "Active": false,
+      "Endless": false,
+      "Duration": 60,
+      "EffectPassingTime": 4,
+      "SenseFactor": 0.67,
+      "AudioEffects": [
+        "lowPassFilter"
+      ]
+    },
+    "Desorientation": {
+      "Type": "Desorientation",
+      "Icon": "desorient_icon",
+      "SubstrateColor": "red",
+      "Active": false,
+      "Endless": false,
+      "Duration": 10,
+      "EffectPassingTime": 4,
+      "SenseFactor": -1
+    },
+    "Stun": {
+      "Type": "Stun",
+      "Icon": "stun_icon",
+      "SubstrateColor": "red",
+      "Active": false,
+      "Endless": false,
+      "Duration": 10,
+      "EffectPassingTime": 4,
+      "AudioEffects": [
+        "deaf",
+        "squeak"
+      ]
+    },
+    "Flash": {
+      "Type": "Flash",
+      "Icon": "flash_icon",
+      "SubstrateColor": "red",
+      "Active": false,
+      "Endless": false,
+      "Duration": 10,
+      "EffectPassingTime": 4,
+      "VisualEffects": [
+        "blindness"
+      ]
+    },
+    "Dehydration": {
+      "Type": "Dehydration",
+      "Icon": "dehydration_icon",
+      "SubstrateColor": "red",
+      "Active": false,
+      "Endless": false,
+      "Duration": 600,
+      "EffectPassingTime": 4,
+      "VisualEffects": [
+        "slight_soaping"
+      ],
+      "SenseFactor": 0.67,
+      "EffectsOnTimeOut": [
+        "HardDehydration"
+      ]
+    },
+    "HardDehydration": {
+      "Type": "HardDehydration",
+      "Icon": "dehydration_icon",
+      "SubstrateColor": "red",
+      "Active": true,
+      "Endless": true,
+      "EffectPassingTime": 4,
+      "TimeStep": 2,
+      "HealthDelta": 3,
+      "VisualEffects": [
+        "soaping"
+      ],
+      "SenseFactor": 0.67
+    },
+    "Exhauxtion": {
+      "Type": "Exhauxtion",
+      "Icon": "exhauxtion_icon",
+      "SubstrateColor": "red",
+      "Active": false,
+      "Endless": false,
+      "EffectPassingTime": 4,
+      "Duration": 600,
+      "WalkSpeedPrecentageDelta": -20,
+      "ReloadSpeedFactor": 0.8,
+      "WeaponGetSpeedFactor": 0.8,
+      "UseSpeedFactor": 0.8,
+      "SenseFactor": 0.5,
+      "EffectsOnTimeOut": [
+        "HardExhauxtion"
+      ]
+    },
+    "HardExhauxtion": {
+      "Type": "HardExhauxtion",
+      "Icon": "exhauxtion_icon",
+      "SubstrateColor": "red",
+      "Active": true,
+      "Endless": true,
+      "EffectPassingTime": 4,
+      "TimeStep": 2,
+      "HealthDelta": 1,
+      "WalkSpeedPrecentageDelta": -20,
+      "ReloadSpeedFactor": 0.8,
+      "WeaponGetSpeedFactor": 0.8,
+      "UseSpeedFactor": 0.8,
+      "SenseFactor": 0.5
+    },
+    "Intoxication": {
+      "Type": "Intoxication",
+      "Icon": "intoxication_icon",
+      "SubstrateColor": "red",
+      "Active": false,
+      "Endless": true,
+      "EffectPassingTime": 4
+    },
+    "RadExposure": {
+      "Type": "RadExposure",
+      "Icon": "rad_exposure_icon",
+      "SubstrateColor": "red",
+      "Active": true,
+      "Endless": true,
+      "EffectPassingTime": 4,
+      "TimeStep": 2,
+      "HealthDelta": 1
+    }
+  }
+}

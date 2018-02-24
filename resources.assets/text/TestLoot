@@ -1,0 +1,443 @@
+{
+    "err": 0,
+    "errmsg": "",
+    "data": {
+        "items": [
+            {
+                "_id": "box_by_the_stairs",
+                "_tpl": "544a11ac4bdc2d470e8b456a",
+                "lootContainer": "BoxByTheStairs"
+            },
+            {
+                "_id": "loot_secure_container",
+                "_tpl": "544a11ac4bdc2d470e8b456a",
+                 "spawnPoint": "1895E305"
+            },
+            {
+                "_id": "loot_multitool",
+                "_tpl": "544fb5454bdc2df8738b456a",
+                "spawnPoint": "54435E5A"
+            },
+            {
+                "_id": "loot_weapon",
+                "_tpl": "558002c04bdc2de7118b4582",
+                 "spawnPoint": "BA58B39"
+            },
+            {
+                "_id": "loot_kiba_mount",
+                "_tpl": "55f96d6f4bdc2d5f408b4578",
+                 "spawnPoint": "33FEC4F3"
+            },
+            {
+                "_id": "med_kit_test",
+                "_tpl": "544fb45d4bdc2dee738b4568",
+                "parentId": "loot_secure_container",
+                "slotId": "main",
+                "location": {
+                    "x": 0,
+                    "y": 0,
+                    "r": 0
+                }
+            },
+            {
+                "_id": "loot_magazine",
+                "_tpl": "544a37c44bdc2d25388b4567",
+                "parentId": "loot_weapon",
+                "slotId": "mod_magazine",
+                "upd": {
+                    "durab": 70
+                }
+            },
+            {
+                "_id": "loot_barrel",
+                "_tpl": "55801c414bdc2dac148b458b",
+                "parentId": "loot_weapon",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "loot_muzzle_tkpd_izhmash_93x64",
+                "_tpl": "5580239d4bdc2de7118b4583",
+                "parentId": "loot_barrel",
+                "slotId": "mod_muzzle"
+            },
+            {
+                "_id": "loot_stock_mk16_standard",
+                "_tpl": "55802f554bdc2db5418b4570",
+                "parentId": "loot_weapon",
+                "slotId": "mod_stock"
+            },
+            {
+                "_id": "loot_pistolgrip_ar15_magpul_moe",
+                "_tpl": "55802f5d4bdc2dac148b458f",
+                "parentId": "loot_weapon",
+                "slotId": "mod_pistol_grip"
+            },
+            {
+                "_id": "loot_charge_mk16_standard",
+                "_tpl": "55802f624bdc2d1c128b4580",
+                "parentId": "loot_weapon",
+                "slotId": "mod_charge"
+            },
+            {
+                "_id": "loot_magazine__0",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__1",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__2",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__3",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__4",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__5",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__6",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__7",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__8",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__9",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__10",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__11",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__12",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__13",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__14",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__15",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__16",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__17",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__18",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__19",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__20",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__21",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__22",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__23",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__24",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__25",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__26",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__27",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__28",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__29",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__30",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__31",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__32",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__33",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__34",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__35",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__36",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__37",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__38",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__39",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__40",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__41",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__42",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__43",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__44",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__45",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__46",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__47",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__48",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__49",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__50",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__51",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__52",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__53",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__54",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__55",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__56",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__57",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__58",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "loot_magazine__59",
+                "_tpl": "5447ac644bdc2d6c208b4567",
+                "parentId": "loot_magazine",
+                "slotId": "cartridges"
+            }
+        ]
+    }
+}

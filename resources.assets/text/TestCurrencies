@@ -1,0 +1,29 @@
+{
+    "err": 0,
+    "data": {
+        "54bcdc22e2ff7826336e3ef4": {
+            "_id": {
+                "$id": "54bcdc22e2ff7826336e3ef4"
+            },
+            "code": "RUB",
+            "name": "Рубли",
+            "course": []
+        },
+        "54bcdc22e2ff7826336e3ef5": {
+            "_id": {
+                "$id": "54bcdc22e2ff7826336e3ef5"
+            },
+            "code": "EUR",
+            "name": "Евро",
+            "course": []
+        },
+        "54bcdc22e2ff7826336e3ef6": {
+            "_id": {
+                "$id": "54bcdc22e2ff7826336e3ef6"
+            },
+            "code": "USD",
+            "name": "Доллары",
+            "course": []
+        }
+    }
+}

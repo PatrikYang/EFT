@@ -1,0 +1,92 @@
+{
+    "errmsg": null,
+    "err": 0,
+    "data": {
+        "54cb57776803fa99248b456e": {
+            "_id": "54cb57776803fa99248b456e",
+            "working": true,
+            "name": "Эльвира",
+            "surname": "Хабибуллина",
+            "nickname": "Терапевт",
+            "location": "",
+            "descr": "зав. отделением травматологии Центральной городской больницы г. Таркова.",
+            "avatar": "/modules/Trading/assets/images/katerina.png",
+            "balance_rub": 6940,
+            "balance_dol": 1800,
+            "balance_eur": 1000,
+            "discount": -5,
+            "discount_end": 1452041141,
+            "buyer_up": 0,
+            "standing": {
+                "level": 1,
+                "sales_sum": 40000,
+                "next_level": {
+                    "min_level": 6,
+                    "min_sales_sum": 15000
+                }
+            },
+            "sell_category": [
+                "543be5664bdc2dd4348b4569",
+                "543be6674bdc2df1348b4569",
+                "5448e8d04bdc2ddf718b4569",
+                "55818b164bdc2ddc698b456c",
+                "543be5cb4bdc2deb348b4568",
+                "55818ae44bdc2dde698b456c",
+                "55818acf4bdc2dde698b456b"
+            ],
+            "buy_category": [
+                "5422acb9af1c889c16000029",
+                "543be6674bdc2df1348b4569",
+                "5448e8d04bdc2ddf718b4569",
+                "55818b164bdc2ddc698b456c",
+                "543be5cb4bdc2deb348b4568",
+                "55818ae44bdc2dde698b456c",
+                "55818acf4bdc2dde698b456b"
+            ]
+        },
+        "54cb50c76803fa8b248b4571": {
+            "_id": "54cb50c76803fa8b248b4571",
+            "working": true,
+            "name": "Павел Егорович",
+            "surname": "Романенко",
+            "nickname": "Прапор",
+            "location": "",
+            "descr": "Прапорщик на складах тыловой базы снабжения Внутренних войск, сблокировавших Норвинскую область. В период КВ снабжал из-под полы бойцов ЧВК BEAR вооружением, боеприпасами и пр. доступным имуществом.",
+            "avatar": "/modules/Trading/assets/images/fedor.png",
+            "balance_rub": 20580,
+            "balance_dol": 2800,
+            "balance_eur": 2000,
+            "discount": -5,
+            "discount_end": 1457041141,
+            "buyer_up": 0,
+            "standing": {
+                "level": 1,
+                "sales_sum": 40000,
+                "next_level": {
+                    "min_level": 6,
+                    "min_sales_sum": 15000
+                }
+            },
+            "sell_category": [
+                "5422acb9af1c889c16000029",
+                "543be6674bdc2df1348b4569",
+                "5448e8d04bdc2ddf718b4569",
+                "55818b164bdc2ddc698b456c",
+                "543be5cb4bdc2deb348b4568",
+                "5447b5f14bdc2d61278b4567",
+                "55818ae44bdc2dde698b456c",
+                "55818acf4bdc2dde698b456b"
+            ],
+            "buy_category": [
+                "5422acb9af1c889c16000029",
+                "543be6674bdc2df1348b4569",
+                "5448e8d04bdc2ddf718b4569",
+                "55818b164bdc2ddc698b456c",
+                "543be5cb4bdc2deb348b4568",
+                "55818ae44bdc2dde698b456c",
+                "5447b5f14bdc2d61278b4567",
+                "55818acf4bdc2dde698b456b"
+            ]
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "err": 0,
+    "data": {
+        "id": "5447a9cd4bdc2dbd208b4567",
+        "pid": "5447b5f14bdc2d61278b4567",
+        "shortName": "M4A1",
+        "name": "Штурмовая винтовка M4A1",
+        "desc": "бла бла бла, штурмовая винтовка\nололо, очень интересный и важный текст",
+        "weight": 3.5,
+        "price": 100,
+        "iconUrl": "/uploads/CONTENT/items/item_weap_m4.png"
+    }
+}

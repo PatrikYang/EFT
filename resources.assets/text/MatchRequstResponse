@@ -1,0 +1,15 @@
+{
+    "err": 0,
+    "errmsg": "",
+    "data": 
+    {    
+
+        "match_id": "123kfsld1",
+        "map": "factory",
+        "players": 
+                [
+                    {"value": "New", "onclick": "CreateNewDoc()"},
+                ]            
+        }
+    }        
+}

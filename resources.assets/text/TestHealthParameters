@@ -1,0 +1,364 @@
+{
+  "err": 0,
+  "data": {
+    "WholeBodyParameters": {
+      "Hydration": {
+        "InitialValue": 100,
+        "MaxTopThreshold": 100,
+        "MinTopThreshold": 100
+      },
+      "Energy": {
+        "InitialValue": 100,
+        "MaxTopThreshold": 100,
+        "MinTopThreshold": 100
+      },
+      "Power": {
+        "InitialValue": 100,
+        "MaxTopThreshold": 100,
+        "MinTopThreshold": 100
+      },
+      "HealthConditions": {
+        "Increase": [],
+        "Decrease": []
+      },
+      "HydrationConditions": {
+        "Increase": [],
+        "Decrease": [
+          {
+            "ValuePoint": 0,
+            "EffectsForPart": {
+              "Stomach": [
+                "Dehydration"
+              ]
+            }
+          }
+        ]
+      },
+      "EnergyConditions": {
+        "Increase": [],
+        "Decrease": [
+          {
+            "ValuePoint": 0,
+            "EffectsForPart": {
+              "Head": [
+                "Exhauxtion"
+              ]
+            }
+          }
+        ]
+      },
+      "PowerConditions": {
+        "Increase": [],
+        "Decrease": []
+      }
+    },
+    "BodyParts": {
+      "Head": {
+        "Health": {
+          "InitialValue": 30,
+          "MaxTopThreshold": 30,
+          "MinTopThreshold": 30
+        },
+        "DamageConditions": {
+          "Knife": [
+            {
+              "Effect": "Bleeding",
+              "ProbabilityFactor": 4,
+              "HealthBorder": 10
+            }
+          ],
+          "Shot": [
+            {
+              "Effect": "Bleeding",
+              "ProbabilityFactor": 2,
+              "HealthBorder": 10
+            }
+          ],
+          "Default": [
+            {
+              "Effect": "Pain",
+              "ProbabilityFactor": 2,
+              "HealthBorder": 10
+            },
+            {
+              "Effect": "VitalBodyPartDestroyed",
+              "HealthBorder": 0
+            }
+          ]
+        }
+      },
+      "Chest": {
+        "Health": {
+          "InitialValue": 70,
+          "MaxTopThreshold": 70,
+          "MinTopThreshold": 70
+        },
+        "DamageConditions": {
+          "Knife": [
+            {
+              "Effect": "Bleeding",
+              "ProbabilityFactor": 4,
+              "HealthBorder": 10
+            }
+          ],
+          "Shot": [
+            {
+              "Effect": "Bleeding",
+              "ProbabilityFactor": 2,
+              "HealthBorder": 10
+            }
+          ],
+          "Default": [
+            {
+              "Effect": "Pain",
+              "ProbabilityFactor": 2,
+              "HealthBorder": 10
+            },
+            {
+              "Effect": "VitalBodyPartDestroyed",
+              "HealthBorder": 0
+            }
+          ]
+        }
+      },
+      "Stomach": {
+        "Health": {
+          "InitialValue": 70,
+          "MaxTopThreshold": 70,
+          "MinTopThreshold": 70
+        },
+        "DamageConditions": {
+          "Knife": [
+            {
+              "Effect": "Bleeding",
+              "ProbabilityFactor": 4,
+              "HealthBorder": 10
+            }
+          ],
+          "Shot": [
+            {
+              "Effect": "Bleeding",
+              "ProbabilityFactor": 2,
+              "HealthBorder": 10
+            }
+          ],
+          "Default": [
+            {
+              "Effect": "Pain",
+              "ProbabilityFactor": 2,
+              "HealthBorder": 10
+            },
+            {
+              "Effect": "StomachDestroyed",
+              "HealthBorder": 0
+            }
+          ]
+        }
+      },
+      "RightArm": {
+        "Health": {
+          "InitialValue": 40,
+          "MaxTopThreshold": 40,
+          "MinTopThreshold": 40
+        },
+        "DamageConditions": {
+          "Knife": [
+            {
+              "Effect": "Bleeding",
+              "ProbabilityFactor": 4,
+              "HealthBorder": 10
+            },
+            {
+              "Effect": "RightArmFracture",
+              "ProbabilityFactor": 1
+            }
+          ],
+          "Shot": [
+            {
+              "Effect": "Bleeding",
+              "ProbabilityFactor": 2,
+              "HealthBorder": 10
+            },
+            {
+              "Effect": "RightArmFracture",
+              "ProbabilityFactor": 1
+            }
+          ],
+          "Grenade": [
+            {
+              "Effect": "RightArmFracture",
+              "ProbabilityFactor": 1
+            }
+          ],
+          "Default": [
+            {
+              "Effect": "Pain",
+              "ProbabilityFactor": 2,
+              "HealthBorder": 10
+            },
+            {
+              "Effect": "RightArmDestroyed",
+              "HealthBorder": 0
+            }
+          ]
+        }
+      },
+      "LeftArm": {
+        "Health": {
+          "InitialValue": 40,
+          "MaxTopThreshold": 40,
+          "MinTopThreshold": 40
+        },
+        "DamageConditions": {
+          "Knife": [
+            {
+              "Effect": "Bleeding",
+              "ProbabilityFactor": 4,
+              "HealthBorder": 10
+            },
+            {
+              "Effect": "LeftArmFracture",
+              "ProbabilityFactor": 1
+            }
+          ],
+          "Shot": [
+            {
+              "Effect": "Bleeding",
+              "ProbabilityFactor": 2,
+              "HealthBorder": 10
+            },
+            {
+              "Effect": "LeftArmFracture",
+              "ProbabilityFactor": 1
+            }
+          ],
+          "Grenade": [
+            {
+              "Effect": "LeftArmFracture",
+              "ProbabilityFactor": 1
+            }
+          ],
+          "Default": [
+            {
+              "Effect": "Pain",
+              "ProbabilityFactor": 2,
+              "HealthBorder": 10
+            },
+            {
+              "Effect": "LeftArmDestroyed",
+              "HealthBorder": 0
+            }
+          ]
+        }
+      },
+      "RightLeg": {
+        "Health": {
+          "InitialValue": 50,
+          "MaxTopThreshold": 50,
+          "MinTopThreshold": 50
+        },
+        "DamageConditions": {
+          "Fall": [
+            {
+              "Effect": "LegFracture",
+              "ProbabilityFactor": 2
+            }
+          ],
+          "Knife": [
+            {
+              "Effect": "Bleeding",
+              "ProbabilityFactor": 4,
+              "HealthBorder": 10
+            },
+            {
+              "Effect": "LegFracture",
+              "ProbabilityFactor": 1
+            }
+          ],
+          "Shot": [
+            {
+              "Effect": "Bleeding",
+              "ProbabilityFactor": 2,
+              "HealthBorder": 10
+            },
+            {
+              "Effect": "LegFracture",
+              "ProbabilityFactor": 1
+            }
+          ],
+          "Grenade": [
+            {
+              "Effect": "LegFracture",
+              "ProbabilityFactor": 1
+            }
+          ],
+          "Default": [
+            {
+              "Effect": "Pain",
+              "ProbabilityFactor": 2,
+              "HealthBorder": 10
+            },
+            {
+              "Effect": "LegDestroyed",
+              "HealthBorder": 0
+            }
+          ]
+        }
+      },
+      "LeftLeg": {
+        "Health": {
+          "InitialValue": 50,
+          "MaxTopThreshold": 50,
+          "MinTopThreshold": 50
+        },
+        "DamageConditions": {
+          "Fall": [
+            {
+              "Effect": "LegFracture",
+              "ProbabilityFactor": 2
+            }
+          ],
+          "Knife": [
+            {
+              "Effect": "Bleeding",
+              "ProbabilityFactor": 4,
+              "HealthBorder": 10
+            },
+            {
+              "Effect": "LegFracture",
+              "ProbabilityFactor": 1
+            }
+          ],
+          "Shot": [
+            {
+              "Effect": "Bleeding",
+              "ProbabilityFactor": 2,
+              "HealthBorder": 10
+            },
+            {
+              "Effect": "LegFracture",
+              "ProbabilityFactor": 1
+            }
+          ],
+          "Grenade": [
+            {
+              "Effect": "LegFracture",
+              "ProbabilityFactor": 1
+            }
+          ],
+          "Default": [
+            {
+              "Effect": "Pain",
+              "ProbabilityFactor": 2,
+              "HealthBorder": 10
+            },
+            {
+              "Effect": "LegDestroyed",
+              "HealthBorder": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

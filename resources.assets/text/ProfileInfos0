@@ -1,0 +1,20 @@
+{
+  "err": 0,
+  "errmsg": "",
+  "data": [
+    {
+      "profileId": "0",
+      "status": "Busy",
+      "server_id": "test",
+      "ip": "192.168.0.1",
+      "port": 8080
+    },
+    {
+      "profileId": "1",
+      "status": "Free",
+      "server_id": null,
+      "ip": "",
+      "port": 0
+    }
+  ]
+}
